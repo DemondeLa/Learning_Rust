@@ -1,2 +1,9 @@
-# macOS system files
+# 忽略所有子目录中的 target 目录
+**/target/
+
+# IDE / 编辑器缓存
+.vscode/
+.idea/
+
+# macOS
 .DS_Store
